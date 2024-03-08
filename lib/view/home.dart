@@ -160,40 +160,40 @@ class _HomePageState extends State<HomePage> {
                     color: MyColors.white),
               ),
             ),
-            Padding(
-              padding:
-                  EdgeInsets.only(top: Responsive.width(context, width: 0.008)),
-              child: SizedBox(
-                  width: Responsive.width(context, width: 0.92),
-                  child: Row(
-                    children: [
-                      Text(
-                        'I\'m a ',
-                        style: MyTextStyle.ubuntuMedium(
-                            fontSize:   18,
-                            color: MyColors.white),
-                      ),
-                      AnimatedTextKit(animatedTexts: [
-                        TyperAnimatedText('Pursuing BCA Student',
-                            speed: const Duration(milliseconds: 150),
-                            textStyle: MyTextStyle.ubuntuMedium(
-                                fontSize: 18,
-                                color: MyColors.white)),
-                        TyperAnimatedText('Flutter Developer',
-                            speed: const Duration(milliseconds: 150),
-                            textStyle: MyTextStyle.ubuntuMedium(
-                                fontSize:18,
-                                color: MyColors.white)),
-
-                        TyperAnimatedText('Android Developer',
-                            speed: const Duration(milliseconds: 150),
-                            textStyle: MyTextStyle.ubuntuMedium(
-                                fontSize: 18,
-                                color: MyColors.white)),
-                      ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
-                    ],
-                  )),
-            ),
+            // Padding(
+            //   padding:
+            //       EdgeInsets.only(top: Responsive.width(context, width: 0.008)),
+            //   child: SizedBox(
+            //       width: Responsive.width(context, width: 0.92),
+            //       child: Row(
+            //         children: [
+            //           Text(
+            //             'I\'m a ',
+            //             style: MyTextStyle.ubuntuMedium(
+            //                 fontSize:   18,
+            //                 color: MyColors.white),
+            //           ),
+            //           AnimatedTextKit(animatedTexts: [
+            //             TyperAnimatedText('Pursuing BCA Student',
+            //                 speed: const Duration(milliseconds: 150),
+            //                 textStyle: MyTextStyle.ubuntuMedium(
+            //                     fontSize: 18,
+            //                     color: MyColors.white)),
+            //             TyperAnimatedText('Flutter Developer',
+            //                 speed: const Duration(milliseconds: 150),
+            //                 textStyle: MyTextStyle.ubuntuMedium(
+            //                     fontSize:18,
+            //                     color: MyColors.white)),
+            //
+            //             TyperAnimatedText('Android Developer',
+            //                 speed: const Duration(milliseconds: 150),
+            //                 textStyle: MyTextStyle.ubuntuMedium(
+            //                     fontSize: 18,
+            //                     color: MyColors.white)),
+            //           ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
+            //         ],
+            //       )),
+            // ),
             // SizedBox(
             //   height: Responsive.width(context, width: 0.08),
             //   child: InkWell(
