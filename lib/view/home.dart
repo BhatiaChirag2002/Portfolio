@@ -59,37 +59,37 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          SizedBox(
-              width: Responsive.width(context,
-                  width: Responsive.isDesktop(context) ? 0.75 : 0.95),
-              child: Row(
-                children: [
-                  Text(
-                    'I\'m a ',
-                    style: MyTextStyle.ubuntuMedium(
-                        fontSize:   35,
-                        color: MyColors.white),
-                  ),
-                  AnimatedTextKit(animatedTexts: [
-                    TyperAnimatedText('Pursuing BCA Student',
-                        speed: const Duration(milliseconds: 150),
-                        textStyle: MyTextStyle.ubuntuMedium(
-                            fontSize: 35,
-                            color: MyColors.white)),
-                    TyperAnimatedText('Flutter Developer',
-                        speed: const Duration(milliseconds: 150),
-                        textStyle: MyTextStyle.ubuntuMedium(
-                            fontSize:35,
-                            color: MyColors.white)),
-
-                    TyperAnimatedText('Android Developer',
-                        speed: const Duration(milliseconds: 150),
-                        textStyle: MyTextStyle.ubuntuMedium(
-                            fontSize: 35,
-                            color: MyColors.white)),
-                  ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
-                ],
-              )),
+          // SizedBox(
+          //     width: Responsive.width(context,
+          //         width: Responsive.isDesktop(context) ? 0.75 : 0.95),
+          //     child: Row(
+          //       children: [
+          //         Text(
+          //           'I\'m a ',
+          //           style: MyTextStyle.ubuntuMedium(
+          //               fontSize:   35,
+          //               color: MyColors.white),
+          //         ),
+          //         AnimatedTextKit(animatedTexts: [
+          //           TyperAnimatedText('Pursuing BCA Student',
+          //               speed: const Duration(milliseconds: 150),
+          //               textStyle: MyTextStyle.ubuntuMedium(
+          //                   fontSize: 35,
+          //                   color: MyColors.white)),
+          //           TyperAnimatedText('Flutter Developer',
+          //               speed: const Duration(milliseconds: 150),
+          //               textStyle: MyTextStyle.ubuntuMedium(
+          //                   fontSize:35,
+          //                   color: MyColors.white)),
+          //
+          //           TyperAnimatedText('Android Developer',
+          //               speed: const Duration(milliseconds: 150),
+          //               textStyle: MyTextStyle.ubuntuMedium(
+          //                   fontSize: 35,
+          //                   color: MyColors.white)),
+          //         ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
+          //       ],
+          //     )),
           // SizedBox(
           //   height: Responsive.width(context, width: Responsive.isDesktop(context)? 0.05: 0.06),
           //   child: InkWell(
