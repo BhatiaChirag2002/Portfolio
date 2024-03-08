@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/view/skills.dart';
 import 'package:portfolio/widgets/drawer_widget.dart';
-import 'package:portfolio/utils/my_colors.dart';
-import 'package:portfolio/utils/responsive.dart';
+import 'package:portfolio/constant/my_colors.dart';
+import 'package:portfolio/constant/responsive.dart';
 import 'package:portfolio/view/about.dart';
 import 'package:portfolio/view/home.dart';
 import 'package:portfolio/widgets/drawer.dart';

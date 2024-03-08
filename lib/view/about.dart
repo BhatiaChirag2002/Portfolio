@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:portfolio/utils/app_text.dart';
-import 'package:portfolio/utils/my_colors.dart';
-import 'package:portfolio/utils/my_text_style.dart';
-import 'package:portfolio/utils/responsive.dart';
+import 'package:portfolio/constant/app_text.dart';
+import 'package:portfolio/constant/my_colors.dart';
+import 'package:portfolio/constant/my_text_style.dart';
+import 'package:portfolio/constant/responsive.dart';
 import 'package:portfolio/widgets/screen_name_title.dart';
 
 class AboutPage extends StatefulWidget {

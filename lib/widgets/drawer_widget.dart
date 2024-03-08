@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/utils/app_text.dart';
-import 'package:portfolio/utils/my_colors.dart';
-import 'package:portfolio/utils/my_text_style.dart';
-import 'package:portfolio/utils/responsive.dart';
+import 'package:portfolio/constant/app_text.dart';
+import 'package:portfolio/constant/my_colors.dart';
+import 'package:portfolio/constant/my_text_style.dart';
+import 'package:portfolio/constant/responsive.dart';
 import 'package:portfolio/widgets/logo.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';

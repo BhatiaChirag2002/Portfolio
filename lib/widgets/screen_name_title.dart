@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:portfolio/utils/my_colors.dart';
-import 'package:portfolio/utils/my_text_style.dart';
+import 'package:portfolio/constant/my_colors.dart';
+import 'package:portfolio/constant/my_text_style.dart';
 
 class ScreenNameTitle extends StatelessWidget {
   final double fontSize;

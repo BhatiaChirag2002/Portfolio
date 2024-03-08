@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/drawer_widget.dart';
-import 'package:portfolio/utils/my_colors.dart';
-import 'package:portfolio/utils/responsive.dart';
+import 'package:portfolio/constant/my_colors.dart';
+import 'package:portfolio/constant/responsive.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class MobileDrawer extends StatelessWidget {
