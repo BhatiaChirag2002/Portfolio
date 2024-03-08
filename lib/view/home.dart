@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/utils/app_text.dart';
 import 'package:portfolio/utils/my_colors.dart';
@@ -58,37 +59,37 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          // SizedBox(
-          //     width: Responsive.width(context,
-          //         width: Responsive.isDesktop(context) ? 0.75 : 0.95),
-          //     child: Row(
-          //       children: [
-          //         Text(
-          //           'I\'m a ',
-          //           style: MyTextStyle.ubuntuMedium(
-          //               fontSize:   35,
-          //               color: MyColors.white),
-          //         ),
-          //         AnimatedTextKit(animatedTexts: [
-          //           TyperAnimatedText('Pursuing BCA Student',
-          //               speed: const Duration(milliseconds: 150),
-          //               textStyle: MyTextStyle.ubuntuMedium(
-          //                   fontSize: 35,
-          //                   color: MyColors.white)),
-          //           TyperAnimatedText('Flutter Developer',
-          //               speed: const Duration(milliseconds: 150),
-          //               textStyle: MyTextStyle.ubuntuMedium(
-          //                   fontSize:35,
-          //                   color: MyColors.white)),
-          //
-          //           TyperAnimatedText('Android Developer',
-          //               speed: const Duration(milliseconds: 150),
-          //               textStyle: MyTextStyle.ubuntuMedium(
-          //                   fontSize: 35,
-          //                   color: MyColors.white)),
-          //         ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
-          //       ],
-          //     )),
+          SizedBox(
+              width: Responsive.width(context,
+                  width: Responsive.isDesktop(context) ? 0.75 : 0.95),
+              child: Row(
+                children: [
+                  Text(
+                    'I\'m a ',
+                    style: MyTextStyle.ubuntuMedium(
+                        fontSize:   35,
+                        color: MyColors.white),
+                  ),
+                  AnimatedTextKit(animatedTexts: [
+                    TyperAnimatedText('Pursuing BCA Student',
+                        speed: const Duration(milliseconds: 150),
+                        textStyle: MyTextStyle.ubuntuMedium(
+                            fontSize: 35,
+                            color: MyColors.white)),
+                    TyperAnimatedText('Flutter Developer',
+                        speed: const Duration(milliseconds: 150),
+                        textStyle: MyTextStyle.ubuntuMedium(
+                            fontSize:35,
+                            color: MyColors.white)),
+
+                    TyperAnimatedText('Android Developer',
+                        speed: const Duration(milliseconds: 150),
+                        textStyle: MyTextStyle.ubuntuMedium(
+                            fontSize: 35,
+                            color: MyColors.white)),
+                  ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
+                ],
+              )),
           // SizedBox(
           //   height: Responsive.width(context, width: Responsive.isDesktop(context)? 0.05: 0.06),
           //   child: InkWell(
@@ -159,40 +160,40 @@ class _HomePageState extends State<HomePage> {
                     color: MyColors.white),
               ),
             ),
-            // Padding(
-            //   padding:
-            //       EdgeInsets.only(top: Responsive.width(context, width: 0.008)),
-            //   child: SizedBox(
-            //       width: Responsive.width(context, width: 0.92),
-            //       child: Row(
-            //         children: [
-            //           Text(
-            //             'I\'m a ',
-            //             style: MyTextStyle.ubuntuMedium(
-            //                 fontSize:   18,
-            //                 color: MyColors.white),
-            //           ),
-            //           AnimatedTextKit(animatedTexts: [
-            //             TyperAnimatedText('Pursuing BCA Student',
-            //                 speed: const Duration(milliseconds: 150),
-            //                 textStyle: MyTextStyle.ubuntuMedium(
-            //                     fontSize: 18,
-            //                     color: MyColors.white)),
-            //             TyperAnimatedText('Flutter Developer',
-            //                 speed: const Duration(milliseconds: 150),
-            //                 textStyle: MyTextStyle.ubuntuMedium(
-            //                     fontSize:18,
-            //                     color: MyColors.white)),
-            //
-            //             TyperAnimatedText('Android Developer',
-            //                 speed: const Duration(milliseconds: 150),
-            //                 textStyle: MyTextStyle.ubuntuMedium(
-            //                     fontSize: 18,
-            //                     color: MyColors.white)),
-            //           ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
-            //         ],
-            //       )),
-            // ),
+            Padding(
+              padding:
+                  EdgeInsets.only(top: Responsive.width(context, width: 0.008)),
+              child: SizedBox(
+                  width: Responsive.width(context, width: 0.92),
+                  child: Row(
+                    children: [
+                      Text(
+                        'I\'m a ',
+                        style: MyTextStyle.ubuntuMedium(
+                            fontSize:   18,
+                            color: MyColors.white),
+                      ),
+                      AnimatedTextKit(animatedTexts: [
+                        TyperAnimatedText('Pursuing BCA Student',
+                            speed: const Duration(milliseconds: 150),
+                            textStyle: MyTextStyle.ubuntuMedium(
+                                fontSize: 18,
+                                color: MyColors.white)),
+                        TyperAnimatedText('Flutter Developer',
+                            speed: const Duration(milliseconds: 150),
+                            textStyle: MyTextStyle.ubuntuMedium(
+                                fontSize:18,
+                                color: MyColors.white)),
+
+                        TyperAnimatedText('Android Developer',
+                            speed: const Duration(milliseconds: 150),
+                            textStyle: MyTextStyle.ubuntuMedium(
+                                fontSize: 18,
+                                color: MyColors.white)),
+                      ], repeatForever: true, isRepeatingAnimation: true,pause: const Duration(milliseconds: 1200),)
+                    ],
+                  )),
+            ),
             // SizedBox(
             //   height: Responsive.width(context, width: 0.08),
             //   child: InkWell(
