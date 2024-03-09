@@ -27,9 +27,13 @@ class _AboutPageState extends State<AboutPage> {
               width: Responsive.isDesktop(context) ? 0.03 : 0.05)),
       child: Row(
         children: [
-          Lottie.asset('assets/jsons/coding.json',
+          Image(
+              image: AssetImage('assets/jsons/coding.gif'),
               width: Responsive.width(context,
                   width: Responsive.isDesktop(context) ? 0.35 : 0.45)),
+          // Lottie.asset('assets/jsons/coding.json',
+          //     width: Responsive.width(context,
+          //         width: Responsive.isDesktop(context) ? 0.35 : 0.45)),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
@@ -66,8 +70,12 @@ class _AboutPageState extends State<AboutPage> {
               const SizedBox(
                 height: 10,
               ),
-              Lottie.asset('assets/jsons/coding.json',
-                  width: Responsive.width(context, width: 0.8)),
+                  Image(
+                      image: AssetImage('assets/jsons/coding.gif'),
+                      width: Responsive.width(context,
+                          width: 0.8)),
+              // Lottie.asset('assets/jsons/coding.json',
+              //     width: Responsive.width(context, width: 0.8)),
               const SizedBox(
                 height: 10,
               ),

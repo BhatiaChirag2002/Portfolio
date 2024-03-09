@@ -39,10 +39,12 @@ class _SkillsPageState extends State<SkillsPage> {
                 children: [
                   Column(
                     children: [
-                      SizedBox(
-                        child: Lottie.asset('assets/jsons/skills.json',
-                            width: Responsive.width(context, width: Responsive.isDesktop(context) ? 0.245 : 0.298 )),
-                      ),
+                      Image(
+                          image: AssetImage('assets/jsons/skills.gif'),
+                          width: Responsive.width(context,
+                              width: Responsive.isDesktop(context) ? 0.245 : 0.298)),
+                      // Lottie.asset('assets/jsons/skills.json',
+                      //     width: Responsive.width(context, width: Responsive.isDesktop(context) ? 0.245 : 0.298 )),
                       Container(
                         decoration: BoxDecoration(
                             color: MyColors.white17,
@@ -194,10 +196,12 @@ class _SkillsPageState extends State<SkillsPage> {
                       fontSize: Responsive.width(context, width: 0.07),
                       textOne: 'My',
                       textTwo: 'Skills'),
-                  SizedBox(
-                    child: Lottie.asset('assets/jsons/skills.json',
-                        width: Responsive.width(context, width: 0.6 )),
-                  ),
+                  Image(
+                      image: AssetImage('assets/jsons/skills.gif'),
+                      width: Responsive.width(context,
+                          width: 0.6)),
+                  // Lottie.asset('assets/jsons/skills.json',
+                  //     width: Responsive.width(context, width: 0.6 )),
                   Container(
                     decoration: BoxDecoration(
                         color: MyColors.white17,
